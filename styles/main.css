@@ -1,0 +1,73 @@
+/* colors */
+/* gradients */
+body {
+  font-size: 16px;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  background: url("../images/bg-pattern-desktop.svg");
+  height: 100vh;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.root .text {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.root .text .logo-div {
+  margin-top: 60px;
+}
+
+.root .text .main-header {
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 100;
+  margin: 80px 0 0 0;
+}
+
+.root .text .main-header span {
+  display: block;
+  color: #ce9797;
+}
+
+.root .text p {
+  color: #ce9797;
+  width: 70%;
+}
+
+.root .text form {
+  position: relative;
+  margin-top: 30px;
+}
+
+.root .text input[type="email"] {
+  width: 50%;
+  padding: 13px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  /*border: 2px solid #e16e6d;*/
+  border: 2px solid #ede2e5;
+}
+
+.root .text input[type="submit"] {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+/*# sourceMappingURL=main.css.map */
