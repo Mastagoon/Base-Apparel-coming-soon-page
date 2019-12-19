@@ -57,17 +57,65 @@ body {
 }
 
 .root .text input[type="email"] {
-  width: 50%;
+  width: 55%;
   padding: 13px;
   margin-bottom: 10px;
   border-radius: 50px;
-  /*border: 2px solid #e16e6d;*/
   border: 2px solid #ede2e5;
+  outline: none;
+}
+
+.root .text input::-webkit-input-placeholder {
+  opacity: 0.3;
+}
+
+.root .text input:-ms-input-placeholder {
+  opacity: 0.3;
+}
+
+.root .text input::-ms-input-placeholder {
+  opacity: 0.3;
+}
+
+.root .text input::placeholder {
+  opacity: 0.3;
 }
 
 .root .text input[type="submit"] {
-  margin: 0;
-  padding: 0;
-  position: absolute;
+  margin-left: -56px;
+  background: -webkit-gradient(linear, left top, right top, from(#f8bfbf), to(#ee8c8c));
+  background: linear-gradient(to right, #f8bfbf, #ee8c8c);
+  outline: none;
+  padding: 14px 35px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.root .text input[type="submit"]:hover {
+  background: #f8bfbf;
+  cursor: pointer;
+}
+
+.root .text .error {
+  border: 2px solid #e16e6d !important;
+}
+
+.root .text .feedback {
+  color: #e16e6d;
+  margin-left: 30px;
+  font-size: 0.8rem;
+}
+
+.root .text .success {
+  color: lightgreen;
+}
+
+@media only screen and (max-width: 768px) {
+  .root {
+    display: block;
+  }
 }
 /*# sourceMappingURL=main.css.map */
